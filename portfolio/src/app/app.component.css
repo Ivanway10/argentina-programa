@@ -1,0 +1,39 @@
+@import url(../app/components/navbar/navbar.component.css);
+@import url(../app/components/footer/footer.component.css);
+@import url(../app/components/exp-cards/exp-cards.component.css);
+@import url(../app/components/edu-cards/edu-cards.component.css);
+@import url(../app/components/banner/banner.component.css);
+@import url(../app/components/tubo/tubo.component.css);
+
+.body {
+    background: #212123;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+
+/*.title h2 {
+    padding-top: 65px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    color: black;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}*/
+
+#Lista {
+    padding-bottom: 40px;
+}
+
+
+#educacion {
+    justify-content: space-around;
+}
+
+.container  {
+    padding-bottom: 50px;
+}
+
+#skills {
+    width: 250px;
+    height: 260px;
+}

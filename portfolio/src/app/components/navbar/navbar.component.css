@@ -1,0 +1,19 @@
+.navbar-brand {
+  width: 150px;
+  height: 110px;
+}
+
+.container-fluid {
+  height: 74px;
+}
+
+.nav-item{
+  color:white;
+}
+
+.navbar-collapse {
+  text-align: right;
+  backdrop-filter: blur(20px);
+  display: flex;
+  position: relative;
+}
