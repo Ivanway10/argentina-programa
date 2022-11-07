@@ -21,3 +21,28 @@
   background: #13663f;
   color: grey;
 }
+
+.form-signin input[type="email"] {
+  margin-bottom: 6px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: gray;
+
+}
+.form-signin a:hover {
+  text-decoration: underline;
+  color: blue;
+}

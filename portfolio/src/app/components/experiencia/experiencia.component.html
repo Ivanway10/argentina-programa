@@ -1,11 +1,17 @@
 <div class="container-title" id="EXP">
     <h2>EXPERIENCIAS</h2>
 </div>
+<div class="container-btn">
+  <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa fa-plus" aria-hidden="true"></i>
+  </button>
+  <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa fa-pencil" aria-hidden="true"></i>
+  </button>
+  <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa fa-trash" aria-hidden="true"></i>
+  </button>
+</div>
 <div class="container">
   <!--modal add-->
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa fa-plus" aria-hidden="true"></i>
-    </button>
     <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -27,8 +33,6 @@
   
   <!--modal edit-->
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa fa-pencil" aria-hidden="true"></i>
-    </button>
     <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -49,8 +53,6 @@
     </div>
   <!-- modal delete -->
   <!-- Button trigger modal -->
-  <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa fa-trash" aria-hidden="true"></i>
-  </button>
   <!-- Modal -->
   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -69,5 +71,5 @@
       </div>
     </div>
   </div>
-  </div>
+</div>
 <app-exp-cards></app-exp-cards>

@@ -4,3 +4,7 @@
     text-align: center;
     margin: 70px 70px;
 }
+.container-btn {
+    display: flex;
+    justify-content: end;
+}

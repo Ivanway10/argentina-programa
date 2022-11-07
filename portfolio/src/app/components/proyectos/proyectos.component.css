@@ -14,3 +14,8 @@
     font-weight: 700;
     text-align: center;
 }
+
+.container-btn {
+    display: flex;
+    justify-content: end;
+}

@@ -1,11 +1,4 @@
-/*.card-product {
-    overflow: hidden;
-    height: 120px;
-    background: white;
-    display: flex;
-    align-items: center;
-    margin-bottom: 25px;
-}*/
+
 
 .card-trip:hover {
         transform: translateY(-3px);
