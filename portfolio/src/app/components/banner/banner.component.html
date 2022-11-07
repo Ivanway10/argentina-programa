@@ -1,10 +1,19 @@
 <div class="banner">
-    <div class="container">
+  <div class="containerbtn">
+    <!--Boton add-->
+    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa fa-plus" aria-hidden="true"></i>
+    </button>
+    <!--Boton edit-->
+    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa fa-pencil" aria-hidden="true"></i>
+    </button>
+    <!--Boton delete-->
+    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa fa-trash" aria-hidden="true"></i>
+    </button>
+
+  </div>
+  <!--Modals-->
+  <div class="container">
       <!--modal add-->
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa fa-plus" aria-hidden="true"></i>
-        </button>
-        <!-- Modal -->
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -22,12 +31,7 @@
             </div>
           </div>
         </div>
-      
       <!--modal edit-->
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa fa-pencil" aria-hidden="true"></i>
-        </button>
-        <!-- Modal -->
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -46,10 +50,6 @@
           </div>
         </div>
       <!-- modal delete -->
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa fa-trash" aria-hidden="true"></i>
-      </button>
-      <!-- Modal -->
       <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -67,12 +67,12 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="container">
+  </div>
+<!--Content-->
+  <div class="container">
       <h1>Ivan Capano | <strong>Full Stack</strong> Developer Jr.</h1>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam quos cum vel. Mollitia corporis temporibus officiis numquam iusto ducimus ratione doloremque. Eius a quidem fuga, molestias ullam corrupti. Provident, quos.</p>
       <a class="btn" href="#CONTACT">Contact</a>
 
-    </div>
   </div>
+</div>
