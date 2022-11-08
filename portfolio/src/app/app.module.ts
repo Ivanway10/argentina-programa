@@ -2,6 +2,8 @@ import { NgModule, ApplicationRef } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HEADERComponent } from '../app/components/header/header.component';
@@ -17,6 +19,8 @@ import { SkillsCardsComponent } from './components/skills-cards/skills-cards.com
 import { LoginComponent } from './components/login/login.component';
 import { TuboComponent } from './components/tubo/tubo.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+
+import { PortfolioService } from './servicios/portfolio.service';
 
 @NgModule({
   declarations: [
@@ -37,7 +41,9 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
   ],
   imports: [
     BrowserModule,
-    CommonModule
+    CommonModule,
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   entryComponents: [AppComponent],
