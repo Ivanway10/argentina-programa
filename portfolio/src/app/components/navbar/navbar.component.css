@@ -1,0 +1,84 @@
+.navbar-brand {
+  width: 150px;
+  height: 110px;
+}
+
+.container-fluid {
+  height: 74px;
+}
+
+.nav-item{
+  color:white;
+}
+
+.navbar-collapse {
+  text-align: right;
+  backdrop-filter: blur(20px);
+  display: flex;
+  position: relative;
+}
+.btn {
+  background: #107747;
+  color: rgb(250, 255, 249);
+}
+
+.form-signin a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 20px;
+  color: rgb(78, 75, 75);
+
+}
+.form-signin a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.modal-content{
+  background: url(http://www.brandiyoko.com/wp-content/uploads/2017/04/20170427_192802.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.form-signin {
+  background: rgba(215, 205, 241, 0.7);
+  color: #000;
+  box-sizing: border-box;
+}
+
+.form-signin h1{
+
+  text-align: center;
+  font-weight: 22px;
+  color: #000;
+
+}
+
+.form-signin label {
+  font-weight: bold;
+  display: block;
+}
+
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.button {
+  border: none;
+  outline: none;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 20px;
+  color: #000;
+  margin-bottom: 20px;
+  padding-bottom: 20px;   
+}

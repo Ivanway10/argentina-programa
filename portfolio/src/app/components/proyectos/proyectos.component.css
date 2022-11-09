@@ -1,0 +1,27 @@
+#ArgProg{     
+    width: 100%;
+    height: auto;
+    border: 2px solid blueviolet;
+}
+
+.carousel-inner {
+    margin-bottom: 40px;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-title h2{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+}
+
+.carousel-inner img {
+    height: 550px;
+}
