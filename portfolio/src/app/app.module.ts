@@ -21,6 +21,7 @@ import { TuboComponent } from './components/tubo/tubo.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 
 import { PortfolioService } from './servicios/portfolio.service';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { PortfolioService } from './servicios/portfolio.service';
     LoginComponent,
     TuboComponent,
     ProyectosComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

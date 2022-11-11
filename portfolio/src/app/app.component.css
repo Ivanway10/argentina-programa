@@ -4,6 +4,7 @@
 @import url(../app/components/edu-cards/edu-cards.component.css);
 @import url(../app/components/banner/banner.component.css);
 @import url(../app/components/tubo/tubo.component.css);
+@import url(../app/components/login/login.component.css);
 
 .body {
     background: #212123;
