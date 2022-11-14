@@ -10,4 +10,8 @@ import { Observable } from 'rxjs'
 export class PortfolioService {
 
   constructor(private http:HttpClient) { }
+
+  obtenerDatos():Observable<any>{
+    return this.http.get('C:/Users/Capano/Desktop/ivan/portfolio/Portfolio/portfolio/src/assets/data/data.json');
+  }
 }
