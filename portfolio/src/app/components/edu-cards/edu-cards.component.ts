@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from 'src/app/servicios/portfolio.service';
 
 @Component({
   selector: 'app-edu-cards',
@@ -8,10 +9,15 @@ import { Component, OnInit } from '@angular/core';
 export class EduCardsComponent implements OnInit {
 
   //aca va la lista
+  miPortfolio:any;
 
-  constructor() { }
+  constructor(private datosPortfolio:PortfolioService) { }
 
   ngOnInit(): void {
+    this.datosPortfolio.obtenerDatos().subscribe(data => {
+      console.log(data);
+      this.miPortfolio=data;
+    });
   }
 
 }
