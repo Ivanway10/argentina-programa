@@ -8,19 +8,20 @@ paso merge-->
 
 
 <div class="container">
-    <div class="cards">
-        <div class="card-trip" id="unqui">      
-            <img [src]="miPortfolio.Educacion.eduimg"/>
-            <div class="card-trip-infos">
-                <h2>Licenciatura en Informatica</h2>
-                <p><strong>Universidad Nacional de Quilmes</strong>.</p>
-            </div>
-        </div>
-
+    <div class="cards" >
+                <div class="card-trip" id="unqui">      
+                    <img [src]="educardList?.Educacion.eduimg">
+                    <div class="card-trip-infos">
+                        <h2>{{educardList?.Educacion.name}}</h2>
+                        <p><strong>{{educardList?.Educacion.institucion}}</strong>.</p>
+                    </div>
+                </div>
+    </div>
+<!--
         <div class="card-trip">
             <img src="https://argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/sliderimage1/1659143423/banner-ok-argentina-programa.jpg" />
             <div class="card-trip-infos">
-                <h2>#SeProgramar</h2>
+                <h2>{{miPortfolio?.Educacion?.name}}</h2>
                 <p>Primera etapa de <strong>"Argentina Programa"</strong>.</p>
             </div>
         </div>
@@ -40,5 +41,5 @@ paso merge-->
                 <p>Ingles <strong>avanzado</strong> oral y escrito.</p>
             </div>
         </div>
-    </div> 
-</div>
+    -->
+    </div>

@@ -7,16 +7,15 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
   styleUrls: ['./edu-cards.component.css']
 })
 export class EduCardsComponent implements OnInit {
-
-  //aca va la lista
-  miPortfolio:any;
-
+  
+  educardList:any;
+  
   constructor(private datosPortfolio:PortfolioService) { }
 
   ngOnInit(): void {
     this.datosPortfolio.obtenerDatos().subscribe(data => {
       console.log(data);
-      this.miPortfolio=data;
+      this.educardList=data.educacion;
     });
   }
 
