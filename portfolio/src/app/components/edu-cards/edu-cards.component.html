@@ -8,15 +8,15 @@ paso merge-->
 
 
 <div class="container">
-    <div class="cards" >
-                <div class="card-trip" id="unqui">      
-                    <img [src]="educardList?.Educacion.eduimg">
-                    <div class="card-trip-infos">
-                        <h2>{{educardList?.Educacion.name}}</h2>
-                        <p><strong>{{educardList?.Educacion.institucion}}</strong>.</p>
+        <div class="cards" *ngFor="let Educard of Edu">
+                    <div class="card-trip">      
+                        <img [src]="Educard.eduimg">
+                        <div class="card-trip-infos">
+                            <h2>{{Educard.name}}</h2>
+                            <p><strong>{{Educard.institucion}}</strong>.</p>
+                        </div>
                     </div>
                 </div>
-    </div>
 <!--
         <div class="card-trip">
             <img src="https://argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/sliderimage1/1659143423/banner-ok-argentina-programa.jpg" />

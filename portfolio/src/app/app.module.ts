@@ -49,6 +49,9 @@ import { HomeComponent } from './components/home/home.component';
   ],
   providers: [],
   entryComponents: [AppComponent],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports: [
+
+  ]
 })
 export class AppModule { }
