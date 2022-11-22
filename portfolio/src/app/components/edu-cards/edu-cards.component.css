@@ -48,9 +48,7 @@
   width: 100%;
   object-fit: cover;
 }
-#unqui img{
-    object-fit: contain;
-}
+
 
 .cards {
     display: block;
