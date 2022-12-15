@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { EduCard } from 'src/app/arrays/edu-cards';
+import { EduCard } from 'src/app/arrays/educards/edu-cards';
 
 
 @Component({
@@ -29,7 +29,7 @@ Edu: EduCard[]=[
   ),
   new EduCard(
       'Ingles',
-      'Our Lady´s [College Avanzado - Oral y Escrito]',
+      'Our Lady´s College [Avanzado - Oral y Escrito]',
       'https://www.leonhunter.com/wp-content/uploads/2017/08/lenguas-sin-academia-es-necesaria-una-institucion-que-regule-el-idioma.jpg'
   )];
 
