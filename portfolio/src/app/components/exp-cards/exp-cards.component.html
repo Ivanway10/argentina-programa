@@ -1,10 +1,9 @@
 <div class="container">
 	<div class="cards">
-		<div class="card-category" style="background: #5ed6ee 30%;">
-			<h3>{{miPortfolio?.Exp?.name}}</h3>
-			<p>{{miPortfolio?.Exp?.periodo}}</p>
-			<p>{{miPortfolio?.Exp?.descripcion}}</p>
+		<div class="card-category" style="background: #5ed6ee 30%;" *ngFor='let expcard of ExpC'>
+			<h3>{{expcard.name}}</h3>
+			<p>{{expcard.fecha_inicio}}- {{expcard.fecha_fin}}</p>
+			<p>{{expcard.description}}</p>
 		</div>
   	</div>
-
-</div>		
+</div>	
