@@ -7,7 +7,8 @@
     },
     "Exp": {
         "name": "Desarrollador Full Stack",
-        "periodo": "2019 - 2022",
+        "fecha_inicio": "2019",
+        "fecha_fin": "2022",
         "descripcion": "Desarrollar un portfolio desde 0 "
     },
     "Proyectos": {
